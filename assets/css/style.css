@@ -1,0 +1,177 @@
+/* RESETS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+	font-family: 'Open Sans';
+}
+
+*,
+*:before,
+*:after {
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box;
+}
+
+body {
+    background: #ecf0f1;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #fff;
+    border: #bdc3c7 solid 1px;
+    border-radius: 3px;
+}
+
+ul.messages {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-bottom: 10px;  
+}
+
+ul.messages > li {
+	padding: 10px;
+	background: #e74c3c;
+	border-radius: 3px;
+	margin: 5px 0px;
+	color: #fff;
+}
+
+ul.errors > li {
+  background: #e74c3c;
+}
+ul.success > li {
+  background: #2ecc71;
+}
+
+fieldset {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+input, button, .button, a {
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+input[type="submit"], button, .button {
+    border: none;
+    padding: 10px 30px;
+    margin: 10px 0px;
+	border-radius: 3px;
+    background: #1abc9c;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+input[type="submit"].small, button.small, .button.small {
+	padding: 7px 15px;
+}
+
+input[type="submit"]:hover, button:hover, .button:hover {
+	background: #16a085;
+	color: #fff;
+}
+
+input[type="text"],input[type="password"] {
+	width: 100%;
+	border-radius: 3px;
+	padding: 10px;
+	border: #bdc3c7 solid 1px;
+}
+
+input[type="text"]:focus,input[type="password"]:focus {
+	background: #ecf0f1;
+}
+
+label {
+	font-size: 0.875rem;
+	color: #4d4d4d;
+	line-height: 2em;
+}
+
+a {
+	color: #1abc9c;
+	text-decoration: none;
+}
+a:hover {
+	color: #16a085;
+}
+
+a.small {
+	font-size: 0.85em;
+}
+
+.inline-content {
+  	display: table;
+  	width: 100%;
+}
+.inline-content > .left {
+  	display: table-cell;
+  	text-align: left;
+}
+.inline-content > .right {
+  	display: table-cell;
+  	text-align: right;
+}
+
+.padding-space {
+	padding-top: 10px;
+}
+
+.notfound {
+	text-align: center;
+	font-size: 17em;
+	color: #fff;
+	text-shadow: -2px 0px #E2E2E2;
+}
